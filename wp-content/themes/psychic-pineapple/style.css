@@ -1,0 +1,58 @@
+/* 
+
+Name: Psychic Pineapple
+Template: psychic-detective
+Author: Cameron Crosby
+Description: This pineapple has had enough of crime in his neighborhood. Now he'll use his psychic powers to solve the case.
+Version: 0.3
+
+*/
+
+/* Import Fonts */
+@font-face {
+  font-family: "Exo-2";
+  src: url(assets/fonts/Exo_2/Exo2-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Source-Code";
+  src: url(assets/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
+nav {
+  background-color: #e87e10;
+
+  ul {
+    li {
+      a {
+        font-family: "Exo-2", sans-serif;
+      }
+    }
+  }
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source-Code", sans-serif;
+}
+
+/* Main */
+main {
+  div {
+    align-items: flex-end;
+
+    figure {
+      align-self: flex-end;
+    }
+
+    p {
+      font-family: "Exo-2", sans-serif;
+      align-self: flex-end;
+    }
+  }
+}

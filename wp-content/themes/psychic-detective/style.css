@@ -1,0 +1,90 @@
+/*
+
+Name: Psychic Detective
+Author: Cameron Crosby
+Description: Solve crime in style. Psychic Detective is a theme for the discerning detective.
+Version: 0.1
+
+*/
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* Nav */
+nav {
+  background-color: #feec7e;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  ul {
+    width: 160px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+header div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Main */
+main {
+  width: 100%;
+  margin: 0 auto;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 60px auto 20px auto;
+  }
+
+  h2 {
+    margin-bottom: 4px;
+  }
+
+  figure {
+    align-self: flex-start;
+  }
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    align-self: flex-start;
+  }
+}
